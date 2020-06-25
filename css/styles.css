@@ -88,7 +88,7 @@ p {
 
 /* Features section */
 #features {
-  padding: 7% 15%;
+  padding: 4% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -134,4 +134,48 @@ p {
 
 .pricing-card {
   padding: 3% 2%;
+}
+
+@@media query {
+
+}
+
+/* Mobile friendly changes */
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+  }
+  .iphoneImg {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  height: 350px;
+  color: #fff;
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 25%;
+  /* font-family: "Montserrat-Black" sans-serif; */
+}
+
+.cta-class {
+  font-family: "Montserrat-Bold" sans-serif;
+  font-size: 2.3rem;
+  margin-bottom: 30px;
+}
+
+#footer {
+  height: 120px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-media {
+  margin: 1%;
+}
+
+.copyright {
+  font-size: 12px;
 }
