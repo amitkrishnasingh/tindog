@@ -8,7 +8,7 @@ body {
 
 /* font-family: 'Ubuntu', sans-serif; */
 h1 {
-  font-family: "Montserrat-Black" sans-serif;
+  font-family: "Montserrat-Black"sans-serif;
   font-size: 4rem !important;
   line-height: 1.5;
   color: white;
@@ -17,11 +17,11 @@ h1 {
 h2 {
   line-height: 1.5;
   font-size: 3rem !important;
-  font-family: "Montserrat-Bold" sans-serif;
+  font-family: "Montserrat-Bold"sans-serif;
 }
 
 h3 {
-  font-family: "Montserrat-Bold" sans-serif;
+  font-family: "Montserrat-Bold"sans-serif;
 }
 
 p {
@@ -62,11 +62,11 @@ p {
   color: #ff4c68;
 }
 
-.fa-bullseye{
+.fa-bullseye {
   color: #ef8172;
 }
 
-.fa-bullseye:hover{
+.fa-bullseye:hover {
   color: #ff4c68;
 }
 
@@ -99,9 +99,9 @@ p {
 }
 
 #testimonials {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   text-align: center;
-  color:#fff;
+  color: #fff;
 }
 
 .testimonial-image {
@@ -116,7 +116,7 @@ p {
 }
 
 #press {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -136,23 +136,23 @@ p {
   padding: 3% 2%;
 }
 
-@@media query {
-
-}
+@@media query {}
 
 /* Mobile friendly changes */
 @media (max-width:990px) {
   #title {
     text-align: center;
   }
+
   .iphoneImg {
     position: static;
     transform: rotate(0);
   }
 }
 
+/* cta Section */
 #cta {
-  height: 350px;
+  height: 380px;
   color: #fff;
   background-color: #ff4c68;
   text-align: center;
@@ -161,8 +161,8 @@ p {
 }
 
 .cta-class {
-  font-family: "Montserrat-Bold" sans-serif;
-  font-size: 2.3rem;
+  font-family: "Montserrat-Black"sans-serif;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 
